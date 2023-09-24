@@ -16,11 +16,14 @@ class Hechizo
     }
 
     // Método para usar el hechizo en un objetivo
-    public void UsarHechizo(int defensa)
+    public void UsarHechizo(Personaje personaje)
     {
-        if (ATK >= defensa)
+        if (ATK >= personaje.DEF)
         {
             Console.WriteLine("Has dañado al objetivo.");
+            int daño = ATK - personaje.DEF;
+            personaje.HP -= daño;
+            Console.WriteLine($"Has causado {dano} puntos de daño a {personaje.Nombre}.");
         }
         else
         {
