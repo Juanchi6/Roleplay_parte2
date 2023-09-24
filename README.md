@@ -1,6 +1,6 @@
 ![Banner](./Assets/banner.jpeg)
 ## Link Diagrama UML
-https://app.diagrams.net/#G1pE7Lh3SJMqMXdjigCEByyXrl5BneOa2q
+[Link Draw.io](https://drive.google.com/file/d/1pE7Lh3SJMqMXdjigCEByyXrl5BneOa2q/view?usp=sharing)
 
 ![UCU](https://github.com/ucudal/PII_Conceptos_De_POO/raw/master/Assets/logo-ucu.png)
 
